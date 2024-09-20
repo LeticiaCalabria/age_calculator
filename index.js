@@ -9,7 +9,7 @@ function calculateAge(){
         alert("Please enter your birthday.")
     } else {
         const age = getAge(birthday)
-        resultEl.innerText = `Your are ${age} ${age > 1 ? "yeards" : "year"} old!`
+        resultEl.innerText = `Your are ${age} ${age > 1 ? "years" : "year"} old!`
     }
 }
 
